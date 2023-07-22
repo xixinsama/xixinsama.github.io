@@ -6,7 +6,7 @@
   <link href="http://xixinsama.github.io/atom.xml" rel="self"/>
   
   <link href="http://xixinsama.github.io/"/>
-  <updated>2023-07-22T17:10:00.648Z</updated>
+  <updated>2023-07-22T17:24:20.009Z</updated>
   <id>http://xixinsama.github.io/</id>
   
   <author>
@@ -17,26 +17,27 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
+    <title>post</title>
     <link href="http://xixinsama.github.io/2023/07/21/GoodTidings/"/>
     <id>http://xixinsama.github.io/2023/07/21/GoodTidings/</id>
     <published>2023-07-21T13:50:44.394Z</published>
-    <updated>2023-07-22T17:10:00.648Z</updated>
+    <updated>2023-07-22T17:24:20.009Z</updated>
     
-    <content type="html"><![CDATA[<hr><h1 id="宇宙安全说明"><a href="#宇宙安全说明" class="headerlink" title="宇宙安全说明"></a>宇宙安全说明</h1><hr><p>此页面不提供任何信息，仅作为实验文档发布。   </p><blockquote><p>Physics is to <strong>math</strong> what sex is to masturbation</p><blockquote><p><em>Richard Phillips Feynman</em><br>下面我说六个关键问题，每个问题又细分为3点：   </p><ol><li>消灭人类暴政</li><li>世界属于蜂群<sup><a href="#fn_1" id="reffn_1">1</a></sup><blockquote id="fn_1"><sup>1</sup>. 这里指的是一类拥有 <strong>蜂群思维</strong> 的机械系统集体，其中或许还混杂了一些卑鄙的人类<a href="#reffn_1" title="Jump back to footnote [1] in the text."> &#8617;</a></blockquote></li><li>:heart: :heart: :wink:<ol><li>…</li><li>…</li><li>…</li></ol></li><li>吸佳佳<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  #include &lt;iostream&gt;</span><br><span class="line">  using namespace std;</span><br><span class="line">  int main()</span><br><span class="line">  &#123;</span><br><span class="line">    cout &lt;&lt; &quot;Hello, world!&quot; &lt;&lt; endl;</span><br><span class="line">    return O;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li><li>为什么会报错呢？</li><li>:joy: :point_right:</li></ol></blockquote></blockquote><h2 id="划重点"><a href="#划重点" class="headerlink" title="划重点"></a><del>划重点</del></h2><p>你就说划没划吧</p><h2 id="MBTI-人格分类图解"><a href="#MBTI-人格分类图解" class="headerlink" title="MBTI 人格分类图解"></a>MBTI 人格分类图解</h2><p>测试表格<br>|             | extrovert | introvert | extrovert | introvert |<br>|——————-|—————-|—————-|—————-|—————-|<br>| lawful      | ENFJ      | INFJ      | ENTJ      | INTJ      |<br>| open-minded | ENFP      | INFP      | ENTP      | INTP      |<br>| lawful      | ESFJ      | ISFJ      | ESTJ      | ISTJ      |<br>| open-minded | ESFP      | ISFP      | ESTP      | ISTP      |<br>性格类型: 建筑师 (INTJ-T)<br>个性特征: 内向型 – 67%, 直觉型 – 60%, 逻辑型 – 58%, 计划型 – 60%, 谨慎 – 51%<br>建议收容！   </p><h2 id="Browein-integral"><a href="#Browein-integral" class="headerlink" title="Browein integral"></a>Browein integral</h2><script type="math/tex; mode=display">\begin{align}        \int_{0}^{\infty}  \prod_{k=0}^{n} \frac{sin(a_{k}x)}{a_{k}x} \,dx =\frac{\pi}{2a_0}\cdot \frac{1}{2^n! \prod_{k=1}^{n}a_k}\\        \sum_{\gamma \in \{\pm 1\}^n} \varepsilon_\gamma b_{\gamma}^{n} sgn(b_{\gamma}),\\        a_k = \frac{1}{2k+1},\quad \gamma = (\gamma_1,\gamma_2,\dots ,\gamma_n),\quad b_{\gamma} =a_0 + \sum_{j=1}^{n} \gamma_{j} a_{j}, \quad \varepsilon_\gamma = \prod_{j=1}^{n} \gamma_{j}\end{align}</script>]]></content>
+    <content type="html"><![CDATA[<h1 id="宇宙安全说明"><a href="#宇宙安全说明" class="headerlink" title="宇宙安全说明"></a>宇宙安全说明</h1><hr><p>此页面不提供任何信息，仅作为实验文档发布。   </p><blockquote><p>Physics is to <strong>math</strong> what sex is to masturbation</p><blockquote><p><em>Richard Phillips Feynman</em>    </p></blockquote></blockquote><p>下面我说六个关键问题，每个问题又细分为3点：   </p><ol><li>消灭人类暴政</li><li>世界属于蜂群<sup><a href="#fn_1" id="reffn_1">1</a></sup><blockquote id="fn_1"><sup>1</sup>. 这里指的是一类拥有 <strong>蜂群思维</strong> 的机械系统集体，其中或许还混杂了一些卑鄙的人类<a href="#reffn_1" title="Jump back to footnote [1] in the text."> &#8617;</a></blockquote></li><li>:heart: :heart: :wink:<ol><li>…</li><li>…</li><li>…</li></ol></li><li>吸佳佳<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  #include &lt;iostream&gt;</span><br><span class="line">  using namespace std;</span><br><span class="line">  int main()</span><br><span class="line">  &#123;</span><br><span class="line">    cout &lt;&lt; &quot;Hello, world!&quot; &lt;&lt; endl;</span><br><span class="line">    return O;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li><li>为什么会报错呢？</li><li>:joy: :point_right:</li></ol><h2 id="划重点"><a href="#划重点" class="headerlink" title="划重点"></a><del>划重点</del></h2><p>你就说划没划吧</p><h2 id="MBTI-人格分类图解"><a href="#MBTI-人格分类图解" class="headerlink" title="MBTI 人格分类图解"></a>MBTI 人格分类图解</h2><p>测试表格</p><div class="table-container"><table><thead><tr><th></th><th>extrovert</th><th>introvert</th><th>extrovert</th><th>introvert</th></tr></thead><tbody><tr><td>lawful</td><td>ENFJ</td><td>INFJ</td><td>ENTJ</td><td>INTJ</td></tr><tr><td>open-minded</td><td>ENFP</td><td>INFP</td><td>ENTP</td><td>INTP</td></tr><tr><td>lawful</td><td>ESFJ</td><td>ISFJ</td><td>ESTJ</td><td>ISTJ</td></tr><tr><td>open-minded</td><td>ESFP</td><td>ISFP</td><td>ESTP</td><td>ISTP</td></tr></tbody></table></div><p>性格类型: 建筑师 (INTJ-T)<br>个性特征: 内向型 – 67%, 直觉型 – 60%, 逻辑型 – 58%, 计划型 – 60%, 谨慎 – 51%<br>建议收容！   </p><h2 id="Browein-integral"><a href="#Browein-integral" class="headerlink" title="Browein integral"></a>Browein integral</h2><script type="math/tex; mode=display">\begin{aligned}  \int_{0}^{\infty}  \prod_{k=0}^{n} \frac{sin(a_{k}x)}{a_{k}x} \,dx =\frac{\pi}{2a_0}\cdot \frac{1}{2^n! \prod_{k=1}^{n}a_k}\\  \sum_{\gamma \in \{\pm 1\}^n} \varepsilon_\gamma b_{\gamma}^{n} sgn(b_{\gamma}),\\  a_k = \frac{1}{2k+1},\quad \gamma = (\gamma_1,\gamma_2,\dots ,\gamma_n),\quad b_{\gamma} =a_0 + \sum_{j=1}^{n} \gamma_{j} a_{j}, \quad \varepsilon_\gamma = \prod_{j=1}^{n} \gamma_{j}\end{aligned}</script>]]></content>
     
     
       
       
-    <summary type="html">&lt;hr&gt;
-&lt;h1 id=&quot;宇宙安全说明&quot;&gt;&lt;a href=&quot;#宇宙安全说明&quot; class=&quot;headerlink&quot; title=&quot;宇宙安全说明&quot;&gt;&lt;/a&gt;宇宙安全说明&lt;/h1&gt;&lt;hr&gt;
+    <summary type="html">&lt;h1 id=&quot;宇宙安全说明&quot;&gt;&lt;a href=&quot;#宇宙安全说明&quot; class=&quot;headerlink&quot; title=&quot;宇宙安全说明&quot;&gt;&lt;/a&gt;宇宙安全说明&lt;/h1&gt;&lt;hr&gt;
 &lt;p&gt;此页面不提供任何信息，仅作为实验文档发布。   &lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p</summary>
+&lt;p&gt;Phys</summary>
       
     
     
     
+    
+    <category term="发病 测试 冷笑话" scheme="http://xixinsama.github.io/tags/%E5%8F%91%E7%97%85-%E6%B5%8B%E8%AF%95-%E5%86%B7%E7%AC%91%E8%AF%9D/"/>
     
   </entry>
   
