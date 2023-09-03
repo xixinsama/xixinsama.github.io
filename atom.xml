@@ -6,15 +6,40 @@
   <link href="https://xixinsama.github.io/atom.xml" rel="self"/>
   
   <link href="https://xixinsama.github.io/"/>
-  <updated>2023-08-20T03:23:56.455Z</updated>
+  <updated>2023-09-03T12:25:04.973Z</updated>
   <id>https://xixinsama.github.io/</id>
   
   <author>
-    <name>Xixin</name>
+    <name>Xixinsama</name>
     
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>shader示例测试</title>
+    <link href="https://xixinsama.github.io/2023/09/03/shader%E7%A4%BA%E4%BE%8B%E6%B5%8B%E8%AF%95/"/>
+    <id>https://xixinsama.github.io/2023/09/03/shader%E7%A4%BA%E4%BE%8B%E6%B5%8B%E8%AF%95/</id>
+    <published>2023-09-03T08:39:36.000Z</published>
+    <updated>2023-09-03T12:25:04.973Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="测试效果"><a href="#测试效果" class="headerlink" title="测试效果"></a>测试效果</h2><p><div id="three"></div></p><script type="module" id="threeMain"></script>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;测试效果&quot;&gt;&lt;a href=&quot;#测试效果&quot; class=&quot;headerlink&quot; title=&quot;测试效果&quot;&gt;&lt;/a&gt;测试效果&lt;/h2&gt;&lt;p&gt;&lt;div id=&quot;three&quot;&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;script type=&quot;module&quot; id=&quot;threeMain</summary>
+      
+    
+    
+    
+    <category term="学习笔记" scheme="https://xixinsama.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="shader" scheme="https://xixinsama.github.io/tags/shader/"/>
+    
+  </entry>
   
   <entry>
     <title>组合优化学习笔记</title>
