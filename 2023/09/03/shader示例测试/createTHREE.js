@@ -53,15 +53,16 @@ function createCss(){
  * @param {string} divId
  * @return {Promise}
  */
-async function cdnLoadTHREE(divNode) {
-  const iframe_window = await createIframe(divNode);
-  // 创建完iframe才有了iframe内的iframe_window对象
-  let link = document.createElement('link');
-  link.href = createCss();
-  link.rel = 'stylesheet';
-  link.type = 'text/css';
-  iframe_window.document.head.appendChild(link);
-  return await new Promise((resolve) => resolve(iframe_window));
+function cdnLoadTHREE(divNode) {
+  return createIframe(divNode).then((iframe_window) => {
+    // 创建完iframe才有了iframe内的iframe_window对象
+    let link = document.createElement('link')
+    link.href = createCss()
+    link.rel = 'stylesheet'
+    link.type = 'text/css'
+    iframe_window.document.head.appendChild(link);
+    return new Promise((resolve)=>resolve(iframe_window));
+  });
 }
 
 /**
