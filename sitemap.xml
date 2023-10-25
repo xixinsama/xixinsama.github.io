@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://xixinsama.github.io/2023/10/09/%E9%92%88%E5%AF%B9%E7%89%B9%E5%AE%9A%E7%9F%A9%E9%98%B5%E6%B1%82%E8%A7%A3%E7%9A%84%E8%BF%BD%E8%B5%B6%E6%B3%95%E5%AE%9E%E7%8E%B0/</loc>
+    
+    <lastmod>2023-10-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://xixinsama.github.io/2023/09/03/shader%E7%A4%BA%E4%BE%8B%E6%B5%8B%E8%AF%95/</loc>
     
     <lastmod>2023-09-18</lastmod>
@@ -40,7 +49,7 @@
 
   <url>
     <loc>https://xixinsama.github.io/</loc>
-    <lastmod>2023-09-18</lastmod>
+    <lastmod>2023-10-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -48,28 +57,35 @@
   
   <url>
     <loc>https://xixinsama.github.io/tags/%E5%8F%91%E7%97%85-%E6%B5%8B%E8%AF%95-%E5%86%B7%E7%AC%91%E8%AF%9D/</loc>
-    <lastmod>2023-09-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://xixinsama.github.io/tags/combinatorics/</loc>
-    <lastmod>2023-09-18</lastmod>
+    <lastmod>2023-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xixinsama.github.io/tags/shader/</loc>
-    <lastmod>2023-09-18</lastmod>
+    <lastmod>2023-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xixinsama.github.io/tags/%E5%89%8D%E7%AB%AF/</loc>
-    <lastmod>2023-09-18</lastmod>
+    <lastmod>2023-10-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://xixinsama.github.io/tags/%E7%9F%A9%E9%98%B5%E6%B1%82%E8%A7%A3-matlab-%E8%BF%BD%E8%B5%B6%E6%B3%95/</loc>
+    <lastmod>2023-10-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://xixinsama.github.io/tags/combinatorics/</loc>
+    <lastmod>2023-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -78,7 +94,7 @@
   
   <url>
     <loc>https://xixinsama.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2023-09-18</lastmod>
+    <lastmod>2023-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
