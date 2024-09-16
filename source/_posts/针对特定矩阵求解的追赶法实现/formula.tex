@@ -1,0 +1,194 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{ctex}
+
+\date{}  %不显示日期
+\begin{document}
+
+\begin{align}
+    A = \begin{bmatrix}
+        a_{0} & a_{-1} & a_{-2} & \ldots & \ldots & a_{-n+1} \\
+        a_{1} & a_{0} & a_{-1}  & \ddots & & \vdots \\
+        a_{2} & a_{1} & \ddots & \ddots & \ddots & \vdots \\
+        \vdots & \ddots & \ddots & \ddots & a_{-1} & a_{-2} \\
+        \vdots & & \ddots & a_{1} & a_{0} & a_{-1} \\
+        a_{n-1} & \ldots & \ldots & a_{2} & a_{1} & a_{0}
+    \end{bmatrix}
+\end{align}
+
+\begin{align}
+    A = \begin{bmatrix}
+        a_{0} & a_{n-1} & a_{n-2} & \ldots & \ldots & a_{1} \\
+        a_{1} & a_{0} & a_{n-1} & a_{n-2} & & \vdots \\
+        a_{2} & a_{1} & a_{0} & a_{n-1} & \ddots & \vdots \\
+        \vdots & \ddots & \ddots & \ddots & a_{1} & a_{n-2} \\
+        \vdots & & \ddots & a_{1} & a_{0} & a_{n-1} \\
+        a_{n-1}  & a_{n-2} & a_{n-3} & \ldots & \ldots & a_{0}
+    \end{bmatrix}
+\end{align}
+
+\begin{align}
+    A = \begin{bmatrix}
+        b_{1} & c_{1} & & & \\
+        a_{2} & b_{2} & c_{2} & & \\
+        & a_{3} & b_{3} & \ddots & \\
+        & & \ddots & \ddots & c_{n-1}\\
+        & & & a_{n} & b_{n} \\
+    \end{bmatrix}
+\end{align}
+
+\begin{align}
+    A = \begin{bmatrix}
+        b_{1} & c_{1} & & & a_{1}\\
+        a_{2} & b_{2} & c_{2} & & \\
+        & a_{3} & b_{3} & \ddots & \\
+        & & \ddots & \ddots & c_{n-1}\\
+        c_{n} & & & a_{n} & b_{n} \\
+    \end{bmatrix}
+\end{align}
+
+\begin{align}
+    A = \begin{bmatrix}
+        c_{1} & d_{1} & e_{1} & & & & \\
+        b_{2} & c_{2} & d_{2} & e_{2} & & & \\
+        a_{3} & b_{3} & c_{3} & d_{3} & e_{3} & & \\
+        & a_{4} & b_{4} & c_{4} & d_{4} & e_{4} & \\
+        & & \ddots & \ddots & \ddots & \ddots & \ddots \\
+        & & & a_{n-2} & b_{n-2} & c_{n-2} & d_{n-2} & e_{n-2} \\
+        & & & & a_{n-1} & b_{n-1} & c_{n-1} & d_{n-1} \\
+        & & & & & a_{n} & b_{n} & c_{n}
+    \end{bmatrix}
+\end{align}
+
+
+三对角
+
+
+\begin{align}
+    c^{*}_{i} = 
+    \begin{cases}
+        \frac{c_{i}}{b_{i}} & \text{if }i = 1, \\
+        \frac{c_{i}}{b_{i}-a_{i}c^{*}_{i}} &  \text{if }i = 2,3,\ldots,n-1.
+    \end{cases}
+\end{align}
+
+\begin{align}
+    d^{*}_{i} =
+    \begin{cases}
+        \frac{d_{i}}{b_{i}} & \text{if }i = 1, \\
+        \frac{d_{i}-a_{i}d^{*}_{i-1}}{b_{i}-a_{i}c^{*}_{i-1}} & \text{if }i = 2,3,\ldots,n.
+    \end{cases}
+\end{align}
+
+\begin{align}
+    \begin{cases}
+        x_{n} = d^{*}_{n}, \\
+        x_{i} = d^{*}_{i}-c_{i}x_{i+1} \text{ for } i = n-1,n-2,\ldots,1.    
+    \end{cases}
+\end{align}
+
+
+五对角
+
+
+\begin{align}
+    b^{*}_{i} = 
+    \begin{cases}
+        b_{i} & \text{if }i = 2, \\
+        b_{i} - a_{i}d^{*}_{i-2} &  \text{if }i = 3,4,\ldots,n.
+    \end{cases}
+\end{align}
+
+\begin{align}
+    c^{*}_{i} = 
+    \begin{cases}
+        c_{i} & \text{if }i = 1, \\
+        c_{i} - \frac{b^{*}_{i}d_{i-1}}{c_{i-1}} & \text{if }i = 2, \\
+        c_{i} - a_{i}e^{*}_{i-2} -  b^{*}_{i}d^{*}_{i-1} &  \text{if }i = 3,4,\ldots,n.
+    \end{cases}
+\end{align}
+
+\begin{align}
+    d^{*}_{i} = 
+    \begin{cases}
+        \frac{d_{i}}{c_{i}} & \text{if }i = 1, \\
+        \frac{d_{i} - b^{*}_{i}d^{*}_{i-1}}{c^{*}_{i}} & \text{if }i = 2,3,\ldots,n-1.
+    \end{cases} \\
+\end{align}
+
+\begin{align}
+    e^{*}_{i} =
+        \frac{e_{i}}{c^{*}_{i}} & \text{ if }i = 1,2,\ldots,n-2.
+\end{align}
+
+\begin{align}
+    y^{*}_{i} =
+    \begin{cases}
+        \frac{y_{i}}{c_{i}} & \text{if }i = 1, \\
+        \frac{y_{i} - b^{*}_{i}y_{i-1}}{c^{*}_{i}} & \text{if }i = 2 \\
+        \frac{y_{i} - a_{i}y^{*}_{i-2} - b^{*}_{i}y^{*}_{i-1}}{c^{*}_{i}} & \text{if }i = 3,4,\ldots,n.
+    \end{cases}
+\end{align}
+
+\begin{align}
+    \begin{cases}
+        x_{n} = y^{*}_{n} \\
+        x_{n-1} = y^{*}_{n-1} - d^{*}_{n-1}x_{n} \\
+        x_{i} = y^{*}_{i} - d^{*}_{i}x_{i+1} - e^{*}_{i}x_{i+2} \text{ for } i = n-2,n-3,\ldots,1.
+    \end{cases}
+\end{align}
+
+
+循环三对角
+
+
+\begin{align}
+L = \begin{bmatrix}
+d_1 & & & & & & \\
+a_2 & d_2 & & & & & \\
+& \ddots & \ddots & & & & \\
+& & a_{n-2} & d_{n-2} & & & \\
+& & & a_{n-1} & d_{n-1} & & \\
+\alpha_1 & \alpha_2 & \cdots & \alpha_{n-2} & \alpha_{n-1} & d_n &
+\end{bmatrix}, \\
+U = \begin{bmatrix}
+1 & u_1 & & & & \beta_1 \\
+& 1 & u_2 & & & \beta_2 \\
+& & \ddots & \ddots & & \vdots \\
+& & & 1 & u_{n-2} & \beta_{n-2} \\
+& & & & 1 &\beta_{n-1}\\
+& & & & & 1
+\end{bmatrix}
+\end{align}
+
+
+\begin{align}
+d_1 = b_1, \quad u_1 = c_1/d_1, \quad \alpha_1 = c_n, \quad \beta_1 = \alpha_1/d_1, \\
+\begin{cases}
+    d_i &= b_i - a_i u_{i-1} \\
+    u_i &= c_i/d_i , \quad i = 2,3,\dots,n-2\\
+    \alpha_i &= -\alpha_{i-1}u_{i-1}
+\end{cases} \\
+d_{n-1} &= b_{n-1} - \alpha_{n-2}u_{n-2}, \\
+\alpha_{n-1} &= a_n - \alpha_{n-2}u_{n-2}, \\
+\beta_{n-1} &= (c_{n-1} - a_{n-1}\beta_{n-2})/d_{n-1}, \\
+d_n &= b_n - \sum_{i=1}^{n-1}\alpha_i\beta_i.
+\end{align}
+
+\begin{align}
+    \begin{cases}
+        y_1 &= f_1/d_1, \\
+        y_i &= (f_i - a_i y_{i-1})/d_i, \quad i = 2,3,\dots,n-1, \\
+        y_n &= (f_n - \sum_{i=1}^{n-1}\alpha_i y_i)/d_n.
+    \end{cases}
+\end{align}
+
+\begin{align}
+    \begin{cases}
+        x_n &= y_n, \\
+        x_{n-1} &= y_{n-1} - \beta_{n-1}x_n, \\
+        x_i &= y_i - u_ix_{i+1} - \beta_ix_n, \quad i = n-2,n-3,\dots,2,1.
+    \end{cases}
+\end{align}
+
+\end{document}
