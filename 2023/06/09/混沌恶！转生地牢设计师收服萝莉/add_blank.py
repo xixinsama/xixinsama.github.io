@@ -1,4 +1,4 @@
-input_file = 'D:\\pyProj\\newpages\\source\\_posts\\混沌恶！转生地牢设计师收服萝莉\\ON.md'
+input_file = 'D:\\pyProj\\newpages\\source\\_posts\\混沌恶！转生地牢设计师收服萝莉\\ONmd.md'
 output_file = 'D:\\pyProj\\newpages\\source\\_posts\\混沌恶！转生地牢设计师收服萝莉\\output_mdfile.md'
 
 with open(input_file, 'r', encoding='utf-8') as file:
